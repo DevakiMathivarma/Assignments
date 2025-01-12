@@ -1,0 +1,202 @@
+.black-div {
+    width: 330px;
+    height: 330px;
+    background-color: black;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.girl-image img {
+    width: 330px;
+    height: 330px;
+    margin-top: 5px;
+
+}
+
+.developer {
+    display: flex;
+    border: 1px solid black;
+    width: 48%;
+
+    position: relative;
+
+}
+
+.box2 {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    background-color: white;
+    border: 1px solid black;
+    width: 25%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+}
+
+.box2 p {
+    width: 60%;
+    margin-left: 40px;
+    text-align: justify;
+    margin-bottom: 30px;
+    color: lightgray
+}
+
+.box2 h3 {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.box2 h2 {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.box3 {
+    border: 1px solid black;
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+    border: none;
+    position: absolute;
+    top: 280px;
+    left: 260px;
+}
+
+.box3 i {
+    padding: 8px;
+    color: white;
+}
+
+@media(max-width:1024px) {
+    body {
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .developer {
+        width: 60%;
+        margin-left: 200px;
+    }
+
+    .box2 {
+        width: 30%;
+        position: absolute;
+        top: 60px;
+        left: 470px;
+    }
+
+    .box3 {
+        width: 20%;
+        position: absolute;
+        top: 290px;
+        left: 430px;
+    }
+
+    .box2 p {
+        width: 70%;
+    }
+}
+@media(max-width:768px) {
+    body {
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .developer {
+        width: 90%;
+        margin-left: 50px;
+    }
+
+    .box2 {
+        width: 50%;
+        position: absolute;
+        top: 50px;
+        left: 320px;
+    }
+
+    .box3 {
+        width: 30%;
+        position: absolute;
+        top: 280px;
+        left: 290px;
+    }
+
+    .box2 p {
+        width: 60%;
+    }
+}
+@media(max-width:320px) {
+    body {
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .developer {
+        width: 100%;
+        margin: 0;
+       
+    }
+
+    .box2 {
+        /* width: 60%; */
+        position: absolute;
+        top: 30px;
+        left: 110px;
+        width:60%;
+    }
+
+    .box3 {
+        width: 40%;
+       
+        position: absolute;
+        top: 190px;
+        left: 100px;
+        padding:5px;
+    }
+    .box3 i{
+        padding:5px;
+        font-size: 10px;
+    }
+
+
+    .box2 p {
+        width: 70%;
+        text-align: left;
+        font-size: 10px;
+    }
+    .girl-image{
+        width:100%;
+    }
+    .girl-image img {
+        /* width: 190px;
+        height: 190px; */
+        margin-top: 5px;
+        width:100%;
+        height:auto;
+    
+    }
+    .black-div {
+        /* width: 230px;
+        height: 230px; */
+        background-color: black;
+        width:100%;
+        height:auto;
+    }  
+    .box2 h3{
+        font-size: 16px;
+    } 
+    .box2 h2{
+        font-size: 12px;
+    } 
+}
