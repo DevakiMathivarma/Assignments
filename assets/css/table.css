@@ -6,12 +6,12 @@ table,td,th {
 @media(max-width:1024px){
     table{
         width:80%;
-        margin:auto ;
+        /* margin:auto ; */
     }
 }
 @media(max-width:768px){
     table{
         width:80%;
-        margin: auto;
+        /* margin: auto; */
     }
 }
